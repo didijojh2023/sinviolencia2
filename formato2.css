@@ -1,0 +1,101 @@
+ * {
+	padding: 0;
+	margin: 0;
+}
+header{
+	height:195px;
+	background: linear-gradient(to right,#5e2662, #372873, #220824);
+}
+h1{
+	font-size:4em;
+	background-image: linear-gradient(to right, #FFFFF0, #C0C0C0);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-align: center;
+	padding: 65px 0 0;
+	font-family: Elephant, sans-serif;
+}
+
+nav {
+  background-color: #2d008e;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.5s ease;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+
+
+.logo-izquierdo{
+	position:absolute;
+    top:1;
+    left:0;
+	width:185px;
+	padding:10px;
+}
+.logo-derecho{
+	position:absolute;
+    top:1;
+    right:0;
+	width:185px;
+	padding:10px;
+}
+section{
+    background-color: #00997C;
+	float: left;
+	width:810px;
+	height:1000px;
+}
+.planeta{
+		float:left;
+		top:6;
+		width:350px;
+		height: 190px;
+		padding: 15px 35px;
+}
+.plata2{
+		float:left;
+		top:6;
+		width:350px;
+		height: 300px;
+		padding: 15px 35px;
+}
+ul{
+  list-style-type: square;
+}
+aside{
+	background: linear-gradient(to right,#00A5BD,#0038A8);
+	float: right;
+	width:535px;
+	height:1000px
+}
+
+footer{
+	background-color: #cccccc;
+    padding: 15px;
+	clear: both;
+	text-align: center;
+}
